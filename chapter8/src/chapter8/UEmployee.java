@@ -1,5 +1,5 @@
 /*
-Program: Puck.java          Last Date of this Revision: March 5 , 2022
+Program: Uemployee.java          Last Date of this Revision: March 5 , 2022
 
 Purpose: Create a UEmployee class that contains member variables for the university employee name and salary.
 The UEmployee class should contain member methods for returning the employee name and salary.
@@ -19,31 +19,31 @@ public class UEmployee {
 	private double salary; // Create private member variable for employee salary
 	
 	
-	public UEmployee() { //Default UEmployee constructor.
-	
-		//Set employee name to be ""
-		name = "";
-		
-		//set employee salary to be 0
-		salary = 0;
-	}
 	
 	public UEmployee(String name, double salary)
 	{
 		//UEmployee constructor which have parameters of name and salary and sets it to it's member variables
-		this.name = name; //Enter your code here for setting the name
+		this.name = name; 
 		
-		this.salary = salary;//Enter your code here for setting the salary
+		this.salary = salary;
 	}
 	
 		public String getName() { //Gets the name
-			return this.name;//Enter your code here
+			return name;
 			}
 		
 		    public double getSalary() { //Gets the Salary
-				return this.salary;// Enter your code here
+				return salary;
 				}
-		
+		    public void setName(String name) {
+			this.name=name;
+			
+			}
+		    public void setSalary(double salary) {
+				this.salary=salary;
+				
+				}
+		    
 
 }
 
