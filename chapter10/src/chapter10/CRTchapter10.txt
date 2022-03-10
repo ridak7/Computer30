@@ -18,3 +18,4 @@ When you add components directly to frame you actually are adding the components
 #6 A label can be used to display a component or to display a component,whereas when user  clicks the button it outputs the results to labels
 
 
+See the message below:
